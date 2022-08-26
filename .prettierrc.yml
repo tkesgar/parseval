@@ -1,0 +1,9 @@
+overrides:
+  # Allow Prettier to wrap paragraphs in Markdown/MDX.
+  - files: "**/*.mdx?"
+    options:
+      proseWrap: always
+  # YAML must use spaces for indentation.
+  - files: "**/*.{yaml,yml}"
+    options:
+      useTabs: false
