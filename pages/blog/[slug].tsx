@@ -1,9 +1,7 @@
 import { compile, run } from "@mdx-js/mdx";
 import { GetStaticPaths, GetStaticProps } from "next";
-import dynamic from "next/dynamic";
 import fsp from "node:fs/promises";
-import path from "node:path";
-import { Fragment, Suspense, useEffect, useState, lazy } from "react";
+import { lazy, Suspense } from "react";
 import * as runtime from "react/jsx-runtime";
 
 interface Props {
